@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(255, 255, 254); 
+  line-height: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+  font-size: 18px;
+  line-height: 1.5em;
+}
+  /*  a:active {
+    background-color:darkgreen;
+  }
+  a:hover {
+    color:darkred;
+  }
+  a:visited {
+    color:darkslategrey;
+  }-->*/
+  a:active {
+    color: rgb(33, 110, 129);
+  }
+  a:hover {
+    color: rgb(185, 34, 24);
+  }
+  a:visited {
+    color: rgb(29, 119, 15);
+  }
+.btn1{
+  margin:20px 20px 20px 70px;
+  padding: 10px 20px;
+  background-color:mediumseagreen;
+  color:white;
+  
+  cursor: pointer;
+  border: none;
+}
+button.btn1:hover {
+  background-color: rgb(207, 20, 13);
+}
+
+.container{
+  max-width: 80%;
+  margin:auto;
+
+}
+.btn2{
+  margin:20px 0px 20px 0px;
+  padding: 10px 20px;
+  background-color:mediumseagreen;
+  color:white;
+  
+  cursor: pointer;
+  float:left;
+  border: none;
+}
+.btn3{
+  margin:20px 0px 20px 0px;
+  padding: 10px 40px;
+  background-color: mediumseagreen;
+  color:white;
+  border: none;
+  cursor: pointer;
+  float:right;
+}
+.container1{
+  margin: 20px 0px;
+}
+#myblock2a
+{
+  clear: both;
+  
+
+}
+
+.pattern1a{
+  padding-left:15px;
+}
+
+
+.pattern1{
+  
+  background-image:url('C:/Users/sramesh/Desktop/wdclass/images/flower.png'), url('C:/Users/sramesh/Desktop/wdclass/images/backgrd-image.png');
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+
+  /* background-size: cover; */
+  padding:15px;
+  
+}
+.pattern1 li{
+  color: red;
+}
+.pattern2{
+  background-color: #f1f1f1;
+  width: 100%;
+  
+}
+.pattern2a {
+  background-color: white;
+  margin:20px;
+  padding:20px  40px;
+}
